@@ -1,0 +1,29 @@
+{
+  "name": "node-microservice-template",
+  "version": "1.0.0",
+  "description": "A starting place for developing a new node microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lint": "./node_modules/.bin/eslint server/ test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinHewitt/node-microservice-template.git"
+  },
+  "author": "Austin Hewitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinHewitt/node-microservice-template/issues"
+  },
+  "homepage": "https://github.com/AustinHewitt/node-microservice-template#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "co": "^4.6.0",
+    "eslint": "^4.17.0",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.0",
+    "rp": "^0.2.0",
+    "sinon": "^4.3.0"
+  }
+}
